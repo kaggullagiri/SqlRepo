@@ -9,7 +9,7 @@ age int,
 check (age < 21));
 
 /*1.Insert the  4 records with age less than 21 and 
-atleast one record should have city value as “Mumbai”*/
+atleast one record should have city value as â€œMumbaiâ€*/
 insert into persons (first_name, last_name, city, age) values
     ('Giri', 'kaggulla', 'chennai', 20),
     ('virat', 'kohli', 'New delhi', 19),
@@ -25,7 +25,7 @@ insert into persons (first_name, last_name, city, age) values
 
 	--Result : The INSERT statement conflicted with the CHECK constraint age
 
---3.Add one more constraint in the same table where city = “Mumbai”
+--3.Add one more constraint in the same table where city = â€œMumbaiâ€
 
 alter table persons
 add constraint checking_mumbai check (city = 'Mumbai');
@@ -34,7 +34,7 @@ add constraint checking_mumbai check (city = 'Mumbai');
   --The conflict occurred in database "ecommerce", table "dbo.persons", column 'city'.
   --Completion time: 2023-11-28T15:39:10.5477605+05:30
 
---4.Insert one more record where city = “jaipur” and give the result
+--4.Insert one more record where city = â€œjaipurâ€ and give the result
 
 insert into persons (first_name, last_name, city, age) values
     ('Sharukh', 'khan', 'Jaipur', 20);
@@ -46,7 +46,7 @@ select * from persons;
 alter table persons
 drop CONSTRAINT checking_mumbai;
 
---6.Create view where city = ‘Mumbai’
+--6.Create view where city = â€˜Mumbaiâ€™
 create VIEW Mumbai_View AS
 SELECT * FROM persons
 WHERE city = 'Mumbai';

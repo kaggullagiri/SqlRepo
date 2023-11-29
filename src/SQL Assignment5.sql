@@ -24,4 +24,5 @@ SELECT
 FROM email_signup
 WHERE LOWER(email_id) LIKE '%gmail.com';
 
+select * from email_signup;
 

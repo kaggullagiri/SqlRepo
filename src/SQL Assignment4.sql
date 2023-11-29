@@ -22,7 +22,7 @@ insert into dept_tbl values
 -- verifying data is inserted or  ot
 select * from dept_tbl;
 
--- i need to find the total salary of each & every department
+-- i need to find the total salary of each & every department 
 
 select distinct id_deptname, sum(salary) from dept_tbl
 group by id_deptname;

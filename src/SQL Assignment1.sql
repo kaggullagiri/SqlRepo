@@ -153,7 +153,7 @@ EXEC sp_rename 'product.price', 'price_value', 'COLUMN'; -- here executing store
 -- checking whether table name is modified or not
 select * from product;  -- column name modified here price as price_value
 
---15.Change the Column value product_name – Ipad to Iphone from product table
+--15.Change the Column value product_name â€“ Ipad to Iphone from product table
 
 update product
 set product_name ='Iphone'

@@ -36,8 +36,8 @@ select
     FIRST_VALUE(quantity_sold) OVER (PARTITION BY product_id ORDER BY sale_date) AS first_quantity,
     LAST_VALUE(quantity_sold) OVER (PARTITION BY product_id ORDER BY sale_date) AS last_quantity
 from
-    sales_data;
--- verifying table data
+Â Â Â Â sales_data;
+-- verifying table data 
 select *  from sales_data;
 
 

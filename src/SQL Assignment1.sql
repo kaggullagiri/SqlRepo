@@ -1,5 +1,5 @@
 --1.creating a new databse
-create database ecommerce; 
+create database ecommerce;  
 use ecommerce; -- using that database
 --2.creating tables :first table with gold_member-users
 create table gold_member_users(

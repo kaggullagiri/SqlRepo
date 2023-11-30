@@ -51,7 +51,7 @@ create VIEW Mumbai_View AS
 SELECT * FROM persons
 WHERE city = 'Mumbai';
 --checking view is created or not
-select * from INFORMATION_SCHEMA.tables;
+select * from INFORMATION_SCHEMA.tables; 
 
 -- view is created 
 

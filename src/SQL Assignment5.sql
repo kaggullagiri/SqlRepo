@@ -1,4 +1,4 @@
--- creating a table 
+-- creating a table   
 create table email_signup(
 id int,
 email_id varchar(40),

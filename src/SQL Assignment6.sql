@@ -1,4 +1,4 @@
-select * from INFORMATION_SCHEMA.tables;
+select * from INFORMATION_SCHEMA.tables; 
 --1.create a table named sales_data with columns: product_id, sale_date, and quantity_sold.
 create table sales_data(
 	product_id int,

@@ -23,7 +23,7 @@ SELECT sell_date,COUNT(DISTINCT product) AS soldcount,STRING_AGG(product, ', ') 
 FROM product_details
 GROUP BY sell_date;
 
-/*result:
+/*result: 
 
 sell_date   soldcount      product_list
 

@@ -1,4 +1,3 @@
-
 -- creating one table with dept_tbl
 
 create table dept_tbl(
